@@ -1,0 +1,17 @@
+body{
+    background-color: #F0D9FF;
+}
+.container{
+    text-align: center;
+    margin:auto;
+    width: 80%;
+}
+.ply{
+    text-align: center;
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+}
+img{
+    width: 30%;
+}
