@@ -9,17 +9,17 @@ var image2 = document.querySelectorAll("img")[1]
 image2.setAttribute("src", randomImg2);
 
 if(randomNo1 == 1 && randomNo2 == 2){
-    document.querySelector("h1").innerHTML = "Player 1 Wins";
+    document.querySelectorAll("h1")[1].innerHTML = "Player 1 Wins";
 }
 else if(randomNo1 == 2 && randomNo2 == 3){
-    document.querySelector("h1").innerHTML = "Player 1 Wins";
+    document.querySelectorAll("h1")[1].innerHTML = "Player 1 Wins";
 }
 else if(randomNo1 == 3 && randomNo2 == 1){
-    document.querySelector("h1").innerHTML = "Player 1 Wins";
+    document.querySelectorAll("h1")[1].innerHTML = "Player 1 Wins";
 }
 else if(randomNo1 ==  randomNo2 ){
-    document.querySelector("h1").innerHTML = "Draw";
+    document.querySelectorAll("h1")[1].innerHTML = "Draw";
 }
 else{
-    document.querySelector("h1").innerHTML = "Player 2 Wins";
+    document.querySelectorAll("h1")[1].innerHTML = "Player 2 Wins";
 }
